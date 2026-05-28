@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-sm text-gray-600">
-            © 2024 Daniel Bork. Todos os direitos reservados.
+            © 2026 Daniel Bork - unBork. Todos os direitos reservados.
           </p>
         </div>
       </div>
