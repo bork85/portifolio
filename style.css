@@ -1,0 +1,26 @@
+html {
+        scroll-behavior: smooth;
+      }
+      .glass-effect {
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+      }
+      .gradient-border {
+        background: linear-gradient(45deg, #8b5cf6, #10b981);
+        padding: 2px;
+        border-radius: 20px;
+      }
+      .skill-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 30px rgba(139, 92, 246, 0.3);
+      }
+      .project-card:hover .project-image {
+        transform: scale(1.05);
+      }
+      .project-card {
+        transition: all 0.3s ease;
+      }
+      .project-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+      }
