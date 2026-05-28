@@ -1,5 +1,7 @@
 import React from 'react'
 import { FaDownload, FaLinkedin, FaGithub } from 'react-icons/fa'
+import photo from '../assets/photo.webp'
+import curriculo from '../assets/curriculo-Dev-Full-Stack-Daniel-Bork.pdf'
 
 const Hero = () => {
   return (
@@ -29,7 +31,7 @@ const Hero = () => {
             
             {/* Botões de Ação */}
             <div className="flex flex-wrap gap-4 pt-4">
-              <a href="src\assets\curriculo-Dev-Full-Stack-Daniel-Bork.pdf" target='_blank'>
+              <a href={curriculo} target='_blank'>
                 <button className="flex items-center space-x-2 px-6 py-3 bg-accent-purple hover:bg-purple-600 text-white rounded-lg font-medium transition-all duration-200 hover:scale-105">
                   <FaDownload />
                   <span>Baixar Currículo</span>
@@ -58,7 +60,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-accent-purple to-accent-emerald rounded-full blur-xl opacity-20 animate-float"></div>
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-gray-800">
                 <img 
-                  src="./src/assets/photo.webp"
+                  src={photo}
                   alt="Daniel Bork"
                   className="w-full h-full object-cover"
                 />

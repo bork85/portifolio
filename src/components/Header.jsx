@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaDownload, FaLinkedin, FaGithub, FaSun, FaMoon } from 'react-icons/fa'
+import logo from '../assets/logo-unBork-invert.webp'
 
 const Header = ({ darkMode, setDarkMode }) => {
   const navItems = [
@@ -19,7 +20,7 @@ const Header = ({ darkMode, setDarkMode }) => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <div className="text-xl font-bold text-accent-purple">
-            <img src="./src/assets/logo-unBork-invert.webp" alt="logo-unbork" className='h-10'/>
+            <img src={logo} alt="logo-unbork" className='h-10'/>
           </div>
           
           <div className="hidden md:flex items-center space-x-8 justify-end">

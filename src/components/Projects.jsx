@@ -1,12 +1,20 @@
 import React from 'react'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import veiculos from '../assets/veiculos.png'
+import devburger from '../assets/home-devburger.png'
+import devbills from '../assets/devbills_mini.png'
+import marmitaria from '../assets/marmitaria.png'
+import captura from '../assets/captura.png'
+import petshop from '../assets/petshop-mini.png'
+import devmovies from '../assets/devmovies-mini.png'
+import bestpizza from '../assets/bestpizza-mini.png'
 
 const Projects = () => {
   const projects = [
     {
       title: 'Sistema de Gestão de Estacionamentos - ParkTech',
       description: `Desenvolvimento de sistema para controle de entrada/saída de veículos com implementação de lógica de precificação dinâmica por tempo. Backend estruturado com ORM Prisma e validação com Zod e arquitetura baseada em APIs REST com comunicação frontend/backend e interface front-end moderna com React + TypeScript`,
-      image: './src/assets/veiculos.png',
+      image: veiculos,
       technologies: [ 'React', 'TypeScript', 'Node.js', 'Express', 'Prisma', 'PostgreSQL', 'TailwindCSS'],
       githubUrl: 'https://github.com/bork85/ParkTech',
       demoUrl: '#'
@@ -14,7 +22,7 @@ const Projects = () => {
     {
       title: 'E-commerce Full Stack - DevBurger',
       description: `Desenvolvimento completo de aplicação de e-commerce (frontend + backend). Implementação de autenticação e autorização com JWT e Bcrypt, criação de APIs REST para gestão de produtos, pedidos e usuários. Desenvolvimento de painel administrativo com controle de pedidos, com interface responsiva mobile-first com TailwindCSS. Integração completa entre frontend e backend via Axios.`,
-      image: './src/assets/home-devburger.png',
+      image: devburger,
       technologies: ['React', 'Node.js', 'Express', 'PostgreSQL', 'MongoDB', 'JWT', 'TailwindCSS', 'API Rest', 'Axios'],
       githubUrl: 'https://github.com/bork85/devburger-Frontend',
       demoUrl: '#'
@@ -22,7 +30,7 @@ const Projects = () => {
     {
       title: ' Aplicação de Controle Financeiro - DevBills',
       description: `Aplicação para gestão de receitas e despesas com dashboard analítico. Implementação de autenticação de usuários e persistência em MongoDB, back-end com Fastify focado em performance e front-end com React e vite para manter uma estrutura modular com separação clara de responsabilidades`,
-      image: './src/assets/devbills_mini.png',
+      image: devbills,
       technologies: ['React', 'vite', 'TypeScript', 'Node.js', 'Fastify', 'MongoDB'],
       githubUrl: 'https://github.com/bork85/Devbills-Interface',
       demoUrl: 'https://devbills.vercel.app/'
@@ -30,7 +38,7 @@ const Projects = () => {
         {
       title: ' Automação para atendimento de clientes com IA via WhatsApp',
       description: `Aplicação para automatizar o atendimentos de clientes de uma marmitaria para receber mensagens via WhatsApp e conduzir o atendimento, respondendo mensagens, encaminhando cardápio e finalizando pedidos com o encaminhamento do mesmo a equipe de cozinha.`,
-      image: './src/assets/marmitaria.png',
+      image: marmitaria,
       technologies: ['n8n', 'JavaScript', 'EvolutionAPI'],
       githubUrl: '#',
       demoUrl: '#'
@@ -38,7 +46,7 @@ const Projects = () => {
     {
       title: ' Aplicação de recebimento e tratamento de dados financeiros',
       description: `Aplicação para gestão de dados financeiros, com recebimento de dados via e-mail com CSV de relatório de vendas, validação e uniformização dos dados de entrada, tratamento dos mesmos e retorno tambem via e-mail com os dados tratados e consolidados.`,
-      image: './src/assets/captura.png',
+      image: captura,
       technologies: ['n8n', 'JavaScript'],
       githubUrl: '#',
       demoUrl: '#'
@@ -46,7 +54,7 @@ const Projects = () => {
     {
       title: 'Landing Page PetCenter',
       description: `Landing Page para petshops com visual moderno e eficiente. Possui seções de hero, serviços, depoimentos com carrousel e localização com integração ao Google Maps`,
-      image: './src/assets/petshop-mini.png',
+      image: petshop,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/bork85/petCenter',
       demoUrl: 'https://bork85.github.io/petCenter/'
@@ -54,7 +62,7 @@ const Projects = () => {
         {
       title: 'Landing Page de consulta de filmes - DevMovies',
       description: `Landing Page para visualização de sugestão de filmes, utilizando API da IMDB. Lista os top filmes do momento, com possibilidade de visualizar os principais dados do filme e seu trailer`,
-      image: './src/assets/devmovies-mini.png',
+      image: devmovies,
       technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'vite'],
       githubUrl: 'https://github.com/bork85/DevMovies',
       demoUrl: 'https://devmovies-bork85.vercel.app/'
@@ -62,7 +70,7 @@ const Projects = () => {
     {
       title: 'Landing Page Pizzaria - BestPizza',
       description: `Landing Page para pizzarias com visual moderno com seções de hero, sabores mais pedidos, link para page de cardapio completo, depoimentos, localização com integração ao Google Maps e CTA para envio de pedido via WhatsApp`,
-      image: './src/assets/bestpizza-mini.png',
+      image: bestpizza,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       githubUrl: 'https://github.com/bork85/Pizza',
       demoUrl: 'https://bork85.github.io/Pizza/'
