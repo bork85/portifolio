@@ -58,7 +58,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-accent-purple to-accent-emerald rounded-full blur-xl opacity-20 animate-float"></div>
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-gray-800">
                 <img 
-                  src="src\assets\photo.webp"
+                  src="./src/assets/photo.webp"
                   alt="Daniel Bork"
                   className="w-full h-full object-cover"
                 />
